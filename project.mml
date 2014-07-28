@@ -1,0 +1,49 @@
+{
+  "bounds": [
+    -109.6875,
+    36.7389,
+    -101.4258,
+    41.5086
+  ],
+  "center": [
+    -105.4688,
+    38.8226,
+    1
+  ],
+  "format": "png",
+  "interactivity": false,
+  "minzoom": 0,
+  "maxzoom": 16,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -109.0413392257672,
+        36.92639297270958,
+        -101.86884258883492,
+        41.02935255669731
+      ],
+      "id": "colorado",
+      "class": "",
+      "Datasource": {
+        "file": "layers/colorado/ColoradoOwnership.shp",
+        "id": "colorado",
+        "project": "coloradocadastral",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "colorado"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "",
+  "description": "Colorado Land Ownership for Flybox",
+  "attribution": ""
+}

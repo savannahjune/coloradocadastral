@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Bureau of Land Management, Colorado State Office, Geosciences Team, Dave Taylor (ed.)</origin>
+				<pubdate>03112009</pubdate>
+				<title Sync="TRUE">ilmcoedt.ILMCODBO.co_lst_conflated_poly</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<serinfo>
+					<sername>BLM Colorado State Wide Geospatial Database</sername>
+					<issue>lst24k_100k = The name of the ArcInfo "coverage" (post export) covered in this metadata file.</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Lakewood, Colorado</pubplace>
+					<publish>BLM, Colorado State Office</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">ilmcoedt.ILMCODBO.co_lst_conflated_poly</ftname><onlink Sync="TRUE"></onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+The original data set consisted of a merge of 56 Colorado 1:100,000 scale land ownership maps that were digitized at the FWS. The hard copy maps/source materials were provided to the FWS by the BLM Colorado State Office. Data was originally obtained by the BLM is USGS DLG format. Individual quads were imported into the Automated Digitizing System (ADS) and reattributed using the most current source material at the time of conversion. Time was around 1994. At this time the BLM Colorado State Office was still on the Prime computers and this was where the data set resided in a converted MOSS format. MOSS files were then converted to UNIX Arc Info and merged into this data set.
+
+Data were then integrated with 1:24,000 scale land ownership data that were gathered from BLM Colorado field offices through out the state where available. Data set now is a mix of scale, tolerances, and vintage, ranging from 1994 to 2006, line work ranging from GCDB to 24K to 100K map scale/land grid source. See "progress reports" in this metadata for more information on this subject. Also see "attribute section" for explaination of line work accuracy/vintage.
+</abstract>
+			<purpose>To illustrate Land Ownership in Colorado in a digital form for map display and query.</purpose>
+			<supplinf>
+Edge tie errors may exsist. These edge ties concerns can only be resolved by the respective land management agencies (primarily the Bureau of Land Management). Data entry staff at the National Ecology Research Center have exceeded standard digitizing expectations by contacting many outside sources in attempts to resolve discrepancies in the paper maps. There are areas where the digital data do not match the paper maps because of more accurate information obtained from outside sources. If you have any concerns about differences between the digital and paper maps contact the Bureau of Land Management, Colorado State Office.
+
+Historical Note:
+Data edge tie errors were not resolved while inserting the (more accurate) 24K data into the (less accurate) 100K. However the data should display just fine and the polygon to label point distribution is correct. Be aware of the little offsets (in the arcs) between the field data (more accurate) and the complete statewide land ownership (less accurate) coverage polygons. You can identify these arcs by selecting the arcs that have no attributes associated with them in the .aat feature attribute table info file.
+
+Historical Claiification Note (as of July 2006):
+Data set has now been through many updates and format changes. The editing/update version of the data is now maintained in ArcSDE/Informix database format. Once editing is complete for a particular update session the data is exported to shape file format and served to general users and the public in that manner. Lines and Polygons are maintained in a ArcGIS geodatabase format with topology rules and domains. Line work has feature level metadata attached to it so the user of the data can determine the source and accuracy of the boundaries. Data was snapped to BLMs statewide GCDB survey grid on or about Oct. 2005. Line work that have blank attribute values are assumed to be snapped to this vintage of GCDB. As update cycles continue Line work will have populated attribute values that indicate the source and accuracy if that boundary. GCDB survey lines move and may have not existed at the time of snapping. As GCDB improves through time and this land ownership layer is updated to reflect those changes, the data will be more accurate. Lastly while working with this data set it has come to our attention that other land types such as forest service boundaries, private land, state lands, etc. may be missing or misplaced. The BLM lands are the most accurate in this layer at this time but even those lands have some problems. Be sure to read the process steps to see where we are at in the update quality control process.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>07222006</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-109.279633</westbc>
+				<eastbc Sync="TRUE">-101.868844</eastbc>
+				<northbc Sync="TRUE">41.071873</northbc>
+				<southbc Sync="TRUE">36.926393</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">139987.541000</leftbc><rightbc Sync="TRUE">763236.609000</rightbc><bottombc Sync="TRUE">4094342.248000</bottombc><topbc Sync="TRUE">4546735.709000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Land Ownership</themekey>
+				<themekey>Land Status</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Colorado</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Any hardcopies utilizing these data sets shall clearly indicate their source. If the licensee has modified the data in any way they are obligated to describe the types of modifications they have performed on the hardcopy map. Licensee specifically agrees not to misrepresent these data sets, nor to imply that changes they made were approved by the Bureau of Land Management.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Bureau of Land Management</cntorg>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2850 Youngfield Street</address>
+					<city>Lakewood</city>
+					<state>CO</state>
+					<postal>80215</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>303 239-3652</cntvoice>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.2 (Build 3790) Service Pack 2; ESRI ArcCatalog 9.3.1.4000</native>
+		<crossref>
+			<citeinfo>
+				<origin>United States Department of the Interior, Fish and Wildlife Service, National Ecology Research Center in cooperation with the Bureau of Land Management, Colorado State Office, Geosciences Team.</origin>
+				<pubdate>20020528</pubdate>
+				<title>Statewide Land Status Map (GCDB, 24k, 100k) version</title>
+				<edition>1st</edition>
+				<geoform>map</geoform>
+				<serinfo>
+					<sername>Statewide GIS Theme</sername>
+					<issue>lst24k_100k</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Lakewood, Colorado</pubplace>
+					<publish>BLM Colorado State Office</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">SDE Feature Class</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Attribute accuracy is tested by manual comparisons of the source with hard copy plots and/or symbolized display of the Land Status on a interactive computer graphic system. Data was also compared to Master Title Plats and survey notes at the Bureau of Land Management.</attraccr>
+		</attracc>
+		<logic>Polygon and Arc-Node topology present. Coverage checked and passed for topology errors.</logic>
+		<complete>
+Data completeness for this data set reflects the content of the source graphic, MTPs, conversations with other land agencies, and survey notes. Features may have been eliminated or generalized on the source graphic due to scale and legibility constraints. Below is the original list of 100k Quads digitized for this project along with the Source date of the source material. Also listed are the dates, file names and descriptive name details of the field data inserted into this statewide coverage.
+
+Quad Name             Source Data
+
+1.   Alamosa                  1988
+2.   Antonito                 1987
+3.   Bailey                   1985
+4.   Blanca Peak              1983
+5.   Bonney Reservoir         1978
+6.   Burlington               1982
+7.   Canon City               1988
+8.   Canyon of Ladore         1990
+9.   Carbondale               1988
+10.  Castle Rock              1984
+11.  Cheyenne Wells           1987
+12.  Colorado Springs         1982
+13.  Cortez                   1984
+14.  Craig                    1990
+15.  Del Norte                1984
+16.  Delta                    1989
+17.  Denver East              1985
+18.  Denver West              1986
+19.  Douglas Pass             1989
+20.  Dove Creek               1988
+21.  Durrango                 1984
+22.  Estes Park               1985
+23.  Eston                    1983
+24.  Fort Collins             1988
+25.  Fort Morgan              1978
+26.  Glenwood Springs         1988
+27.  Grand Junction           1990
+28.  Greeley                  1990
+29.  Gunnison                 1989
+30.  Julesburg                1978
+31.  Karval                   1987
+32.  Kim                      1984
+33.  La Junta                 1984
+34.  Lamar                    1976
+35.  Las Animas               1990
+36.  Last Chance              1978
+37.  Leadville                1989
+38.  Limon                    1985
+39.  Meeker                   1990
+40.  Montrose                 1988
+41.  Nucla                    1989
+42.  Paonia                   1989
+43.  Pikes Peak               1985
+44.  Pueblo                   1982
+45.  Rangely                  1989
+46.  Saguache                 1988
+47.  Silverton                1990
+48.  Springfield              1975
+49.  Steamboat Springs        1988
+50.  Sterling                 1976
+51.  Trinidad                 1988
+52.  Two Buttes Reservoir     1975
+53.  Vail                     1989
+54.  Walden                   1989
+55.  Walsenburg               1983
+56.  Wray                     1982
+
+Below is the list of data inserted into this theme from BLM field offices.
+
+File Name           mm/yy              BLM Field Office
+
+lst100k                    04/94               BLM Colorado State Office
+gj_lst                       05/02               BLM Grand Junction Office
+gs_lst                      04/02               BLM Glenwood Springs Office
+kr_lst                       10/00               BLM Kremmling Office
+ls_lst                        07/00              BLM Craig Office
+wr_lst                       02/00              BLM Meeker Office
+mar_lst                   05/02               BLM Montrose Office
+mr_lst                     10/00               BLM Montrose Office
+rglst                         06/01              BLM Canon City Office
+</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Referenced to USGS base map; however, does not register perfectly, because data were digitized off of paper quadrangle. In some cases data is referenced to GCDB Land Grid Published by BLM.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>100K, 24K, and GCDB</srcscale>
+				<typesrc>Paper USGS quads and Geographic Coordinate Data Base (GCDB)</typesrc>
+				<srccitea>None</srccitea>
+				<srccontr>Compiled by BLM Specialist</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+Original coverage were "lst100k" (see metadata on this coverage for process steps to this point). Editor for this coverage used BLM field office land ownership data and used the "erase" command with the "net" option in ArcInfo to create holes in the original data. Editor then used "mapjoin" with the "net" option to join the field office data to the statewide data. Editor then used the "dissolve" command with the "net" option to dissolve arcs between common attributed polygons.
+
+Attribute schema had to be modified in the polygon table so land ownership attributes would have the same field names, field definitions, and attribute names.
+
+Final coverage is a combination of many different BLM field office sources. The arc table were modified to maintain a feature base accuracy source attribute for each of the arcs in the final coverage.
+</procdesc>
+				<procdate>20020528</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Data converted from ArcInfo coverage to  ArcSDE 8.3 Geodatabase. Domain values added for polygon data and arcs. Topology Rules set in the geodatabase and data was validated. Update editing continued in the SDE environment.
+
+During the editing and update cycle the editor keeped track of the boundaries by attributing the arcs with line source/feature level metadata. Topology rules were set so if a polygon boundary moved the arc moved with it. Also during this update cycle the editor incorporated many state land board features on a statewide bases.
+</procdesc>
+				<procdate>20041030</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Taylor</cntper>
+							<cntorg>BLM Colorado State Office</cntorg>
+						</cntperp>
+						<cntpos>IT/GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>2850 Youngfield Street</address>
+							<city>Lakewood</city>
+							<state>Colorado</state>
+							<postal>80215</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>303 239-3652</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+Data was froze during this time period, and handed over to a private contractor. The contarctor was tasked to conflate the data to BLM's Geographic Coordinate Data Base (GCDB). Because of the difficulty of maintaining topology movement between the arcs and the polygons the contractor did not maintain the feature level metadata for the arcs.
+
+Contractor provided the data back to BLM Colorado with polygon topology only in the form on a personal geodatabase. Data was conflated to GCDB survey grid dated 20051130
+</procdesc>
+				<procdate>20050230</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Taylor</cntper>
+							<cntorg>BLM Colorado State Office</cntorg>
+						</cntperp>
+						<cntpos>IT/GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>2850 Youngfield Street</address>
+							<city>Lakewood</city>
+							<state>Colorado</state>
+							<postal>80215</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>303 239-3652</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>A minumum data quality check and validation from contractor, moved into a Arcinfo coverage model, build command was run on data. Data is clean to this point with no topology errors and ready to move data back into a SDE geodatabase. Data can also be exported to a shape file so it can be served to the public and other interested parties.</procdesc>
+				<procdate>20060103</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Taylor</cntper>
+							<cntorg>BLM Colorado State Office</cntorg>
+						</cntperp>
+						<cntpos>IT/GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>2850 Youngfield Street</address>
+							<city>Lakewood</city>
+							<state>Colorado</state>
+							<postal>80215</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>303 239-3652</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Attribute schema for polygons and lines were re-evaluated and changed to reflect national standards that the BLMs NILS office uses for their SMA layer.</procdesc>
+				<procdate>20060615</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Updates recieved from BLM Grand Junction and implemented. Anticipate some more updates for the same area in the next month or so.</procdesc>
+				<procdate>20060718</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Taylor</cntper>
+							<cntorg>BLM Colorado State Office</cntorg>
+						</cntperp>
+						<cntpos>GIS Specialist</cntpos>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>2850 Youngfield Street</address>
+							<city>Lakewood</city>
+							<state>Colorado</state>
+							<postal>80215</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>303 239-3652</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+Attribute values updated to reflect domain changes for CDOW State Lands. Editor found all values in the attribute table that had a value of CDW and switched those to Local/State, County, City; Wildlife, Park, and Outdoor Recreation Areas. In some cases polygons were adjusted to reflect geometery changes recieved from The State Land Board. These mostly occurred in the NW part of the State.
+
+Be aware at the time of this posting in this process step that a statewide update of State/LOCAL Lands has not been completed and it is the feeling of this editor that there are lots of changes to geometry for these state lands classifications. We will try to incorperate more of these changes in the coming weeks. (ed; dtaylor)
+</procdesc>
+				<procdate>07222006</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Dave Taylor</cntper>
+							<cntorg>BLM Colorado State Office</cntorg>
+						</cntperp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>2850 Youngfield Street</address>
+							<city>Lakewood</city>
+							<state>Colorado</state>
+							<postal>80215</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>303 239-3652</cntvoice>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Polygons updated on the default database. Database written to shape file. Updates from some field offices but not all.</procdesc>
+				<procdate>06212007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Polygons updated on the default database. Database written to shape file. Updates from some field offices but not all.</procdesc>
+				<procdate>11062007</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Polygons updated on the default database. Database written to shape file. Updates from some field offices but not all.</procdesc>
+				<procdate>02122008</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Polygons updated on the default database. Database written to shape file. Updates from some field offices but not all.</procdesc>
+				<procdate>02052009</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Forest Service update in T 39 N, R 8 W, Sec. 6 &amp; 7. Land Boundary snapped to 2008 GCDB Survey Lines. Forest Service update is T 36 N, R 9 W, Sec 33. Land Boundary snapped and adjusted to 2008 GCDB Survey Lines and refrenced BLM MTP.</procdesc>
+				<procdate>03102009</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>
+Several updates within the BLM White River Field Office Area. Adjusted Land Boundaries to 2008 GCDB while referencing MTPs and 2008 State Wildlife Areas.
+
+Exported SDE database to shapefile, ran check geometry, shapefile had no errors. Delete SDE Perimeter and Area fields, Added shapefile Areas, Perimeter, and Acres Fields and Populated those fields using calculator.
+</procdesc>
+				<procdate>03112009</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Several updates within the Uncompagre and Grand Junction Field Office Areas</procdesc>
+				<procdate>11242009</procdate>
+				<proctime>11045000</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Updated Private Land to BLM Land in and around Canyon of the Ancients National Monument.</procdesc>
+				<procdate>20091218</procdate>
+				<proctime>10572000</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Updates made by Grand Junction Field Office.</procdesc>
+				<procdate>20091231</procdate>
+				<proctime>11140100</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Updates made by Grand Junction Field Office.</procdesc>
+				<procdate>20100120</procdate>
+			</procstep>
+			<procstep>
+				<procdesc>Snapped to 2008 version of GCDB in the West Half of the Colorado River Valley Field Office Area (Formally the Glenwood Springs Field Office)</procdesc>
+				<procdate>20100315</procdate>
+				<proctime>14481700</proctime>
+			</procstep>
+			<procstep>
+				<procdesc>Many updates made from the State Office Location.</procdesc>
+				<procdate>20101011</procdate>
+			</procstep>
+			<procstep><procdesc>Grand Junction Field Office snapped several land boundaies to 2010 GCDB data.</procdesc><procdate>20101024</procdate></procstep><procstep><procdesc>Added a small piece of BLM that extends just south of the CANM per direction from the San Juan Public Lands Center in Durango, CO. This small piece of aquired BLM is for the Sand Canyon trailhead paking lot parcel.</procdesc><procdate>20101101</procdate></procstep><procstep><procdesc>Added several updates as directed from the BLM Canon City Field Office Reality Staff.</procdesc><procdate>20101122</procdate></procstep><procstep><procdesc>Several Updates from the Colorado River Valley Field Office and the Grand Junction Field Office.</procdesc><procdate>20110114</procdate></procstep><procstep><procdesc>Several updates in the BLM, Canon City Field Office Area.</procdesc><procdate>20110125</procdate></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Service=sde:sqlserver:ilmocop3db2\sdesqlco; Database=ilmcoedt; User=ilmcodbo; Version=sde.DEFAULT</srcused><procdate Sync="TRUE">20121104</procdate><proctime Sync="TRUE">20104500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\blm\dfs\loc\egis\OC\GISData\Users\bhwilson\connections\CO\93\New File Geodatabase.gdb</srcused><procdate Sync="TRUE">20121105</procdate><proctime Sync="TRUE">00025500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Service=sde:sqlserver:ilmocop3db2\sdesqlco; Database=ilmcoedt; User=ilmcodbo; Version=sde.DEFAULT</srcused><procdate Sync="TRUE">20130114</procdate><proctime Sync="TRUE">09204300</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="ColoradoOwnership"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="4" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000125</absres>
+						<ordres Sync="TRUE">0.000125</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_13N</projcsn></cordsysn></horizsys>
+		<vertdef>
+			<altsys>
+				<altres Sync="TRUE">1.000000</altres>
+				<altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="ColoradoOwnership">
+			<enttyp>
+				<enttypl Sync="TRUE">ColoradoOwnership</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr><attrlabl Sync="TRUE">OwnerType</attrlabl><attalias Sync="TRUE">OwnerType</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">50</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+		<overview>
+			<eaover>
+The Polygon Feature Class contains 3 user defined fields and are described below...
+
+admin_code: Is a domain field and restricted to the following values:
+
+BLM = Bureau of Land Management, USFS = US Forest Service, USFS_LU = US Forest Service (Bankhead Jones Land Use Lands), USFW = US Fish and Wildlife Service, BIA = Indian Reservation, LOCAL = State, County, City; Park and Outdoor Recreation Areas, SWA = State Wilderness Areas, BOR = Bureau of Reclaimation, DOD = Department of the Defense, NPS = National Park Service, PRI = Private, STA =State, OTHER = Other Federal Land, USFS_NG = US Forest Service National Grasslands
+
+admin_manager: Is a non domain field and describes what or who manages the land. For the most part this field will be empty. If the field is empty the user of this data can assume that the manager is also the owner.
+
+admin_name: Is a non domain field that describes the administrative name of the polygon/area if interest.
+</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>
+The Bureau of Land Management (BLM) provides these geographic data "as is." BLM makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. BLM further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of BLM, no warranty, expressed or implied, is made by BLM regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.
+
+In no event shall the BLM have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data or arising out of the delivery, installation, operation, or support by BLM.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>8.766</transize>
+				</digtinfo>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20111212</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Bureau of Land Management, Colorado State Office, Geographic Sciences Team</cntorg>
+					<cntper>David Taylor</cntper>
+				</cntorgp>
+				<cntpos>GIS Specialist</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2850 Youngfield Street</address>
+					<city>Lakewood</city>
+					<state>Colorado</state>
+					<postal>80215</postal>
+				</cntaddr>
+				<cntvoice>(303) 239-3652</cntvoice>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<langmeta Sync="TRUE">en</langmeta></metainfo>
+	<Esri><CreaDate>20140715</CreaDate><CreaTime>20322500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20140715</SyncDate><SyncTime>20224000</SyncTime><ModDate>20140715</ModDate><ModTime>20224000</ModTime><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="201533">CalculateField lst_conflated_poly OwnerType 1 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="201808">CalculateField lst_conflated_poly OwnerType 2 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="201904">CalculateField lst_conflated_poly OwnerType 3 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="202004">CalculateField lst_conflated_poly OwnerType 4 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="202036">CalculateField lst_conflated_poly OwnerType 6 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20140715" Time="202102">CalculateField lst_conflated_poly OwnerType 5 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.2\ArcToolbox\Toolboxes\Data Management Tools.tbx\Dissolve" Date="20140715" Time="202246">Dissolve lst_conflated_poly "C:\Users\Grant\Downloads\GIS Data\co_lst\ColoradoOwnership.shp" OwnerType # MULTI_PART DISSOLVE_LINES</Process></lineage><itemProps><itemName Sync="TRUE">ColoradoOwnership</itemName><imsContentType Sync="TRUE">002</imsContentType><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\GRANT-PC\Users\Grant\Downloads\GIS Data\Deliverable\ColoradoOwnership</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits><projcsn Sync="TRUE">NAD_1983_UTM_Zone_13N</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_13N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-105.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26913]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26913&lt;/WKID&gt;&lt;LatestWKID&gt;26913&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef><copyHistory><copy source="C:\Users\Grant\Downloads\GIS Data\co_lst\ColoradoOwnership" dest="\\GRANT-PC\Users\Grant\Downloads\GIS Data\Deliverable\ColoradoOwnership" date="20140715" time="20322500"></copy></copyHistory></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc><dataLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></dataLang><idCitation><resTitle Sync="TRUE">ColoradoOwnership</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">139987.541</westBL><eastBL Sync="TRUE">763236.609</eastBL><northBL Sync="TRUE">4546735.709</northBL><southBL Sync="TRUE">4094342.248</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-109.279633</westBL><eastBL Sync="TRUE">-101.868844</eastBL><northBL Sync="TRUE">41.071873</northBL><southBL Sync="TRUE">36.926393</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="eng"></languageCode><countryCode value="USA" Sync="TRUE"></countryCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="006"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc></distorTran><distorFormat><formatName Sync="TRUE">SDE Feature Class</formatName></distorFormat></distributor><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE" code="26913">NAD_1983_UTM_Zone_13N</identCode><idCodeSpace Sync="TRUE">EPSG</idCodeSpace><idVersion Sync="TRUE">8.2.6</idVersion></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><geometObjs Name="ColoradoOwnership"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20140715</mdDateSt></metadata>
