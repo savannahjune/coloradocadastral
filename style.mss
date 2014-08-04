@@ -1,12 +1,11 @@
-Map {
-  background-color: #b8dee6;
-}
+//Cadastral map of Colorado for Flybox.  Area outside of Colorado is 
+//transparent, so as not to obscure the underlying map. 
 
 #colorado {
   line-color:grey;
   line-width:0.5;
   polygon-opacity:1;
-  //State land is blue/purple or lavender
+  //State land is blue
   [OwnerType = 'State'] {
     polygon-fill: #BDCFFF;
     }
@@ -24,7 +23,7 @@ Map {
     }
   //Other public lands color will be chosen by Ryan
   [OwnerType = 'Other Public Lands'] {
-    polygon-fill: yellow;
+    polygon-fill: #B2ACD6;
     }
   //Bureau of Indian Affairs is orange
   [OwnerType = 'Bureau of Indian Affairs'] {
